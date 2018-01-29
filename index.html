@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<title>Oh Malô Official Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--link rel="stylesheet" title="main" href="main.css"-->
+<link rel="stylesheet" href="w3.css">
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400|Open+Sans:300,700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-padding">
+  <div class="w3-bar" id="myNavbar">
+    <!-- OG Nav Bar --> <!--
+      <div>
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars w3-hover-opacity"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button">HQ</a>
+      <a href="#tour" class="w3-bar-item w3-button w3-hide-small">TOUR</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small">ABOUT</a>
+      <a href="#music" class="w3-bar-item w3-button w3-hide-small">MUSIC</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small">CONTACT</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"></a>
+    </div> -->
+      <!-- Email signup -->
+      <!-- <span>
+        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+          <span id="mc_embed_signup">
+            <form action="https://ohmalo.us11.list-manage.com/subscribe/post?u=82196f790d4be56294e20bebd&amp;id=d11b84b563" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <span id="mc_embed_signup_scroll">
+	              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <span style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_82196f790d4be56294e20bebd_d11b84b563" tabindex="-1" value="">
+                </span>
+                <span class="clear">
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                </span>
+              </span>
+            </form>
+          </span>
+      </span> -->
+    </div>
+    <!-- Social Icons -->
+    <div class="w3-xlarge w3-right sub-menu">
+      <!-- Socials -->
+      <div class="wrapper">
+        <div class="bg">
+            <span class="social-icon">
+               <a href="https://www.facebook.com/ohmalo" target="_blank"><i class="fa fa-facebook w3-hover-opacity w3-padding-small el"></i></a>
+               <a href="https://open.spotify.com/artist/7zlxdjeXAXxf59Q2KQi3cl" target="_blank"><i class="fa fa-spotify w3-hover-opacity w3-padding-small"></i></a>
+               <a href="https://instagram.com/ohmalo/" target="_blank"><i class="fa fa-instagram w3-hover-opacity w3-padding-small"></i></a>
+               <a href="https://twitter.com/OhMaloBand" target="_blank"><i class="fa fa-twitter w3-hover-opacity w3-padding-small"></i></a>
+               <a href="https://www.youtube.com/channel/UC3HUCjD2VM6luB3OMA6QXWA" target="_blank"><i class="fa fa-youtube-play w3-hover-opacity w3-padding-small"></i></a>
+            </span>
+        </div>
+      </div>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+
+
+<!-- First Parallax Image with Logo Text -->
+<div id="overlay" class="bgimg-1 w3-display-container fade">
+    <!--<video class="w3-display-middle" id="hero-vid" poster="http://www.markhillard.com/sandbox/media/polina.jpg" autoplay loop muted>
+        <source type="video/mp4" src="wowie.m4v"></source>
+        	<source type="video/webm" src="http://www.markhillard.com/sandbox/media/polina.webm"></source>
+        	<source type="video/mp4" src="http://www.markhillard.com/sandbox/media/polina.mp4"></source>
+    </video>-->
+  	<div class="w3-display-middle w3-display-position" style="white-space:nowrap;">
+    	<span class="w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity invert">
+    		<img src="assets/type1.png" style="width:100%; height:auto"></span>
+        <!-- Hidden Audio Player -->
+        <!--<audio id="player" autoplay loop controls style="display:none">
+          <source src="assets/dlds_website_V5.mp3" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>-->
+        <!-- Rudimentary Audio Interaction Buttons
+        <div>
+          <button onclick="document.getElementById('player').play()">Play</button>
+          <button onclick="document.getElementById('player').pause()">Pause</button>
+          <button onclick="document.getElementById('player').muted=!document.getElementById('player').muted">Mute/ Unmute</button>
+        </div>
+      <a href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="Preview" onclick="aud_play_pause()"><i id="stateicon" class="fa fa-pause"></i></a>
+      -->
+  	</div>
+    <!--div id="state" class="visible-desktop">
+        <span class="fa fa-pause w3-hover-opacity"></span>
+    </div-->
+</div>
+
+<!-- TOUR -->
+<div class="w3-content w3-container" id="tour">
+	<div class="w3-row ">
+		<script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script>
+					<a class="bit-widget-initializer" data-artist-name="Oh Malô" data-display-local-dates="false" data-display-past-dates="false" data-auto-style="false" data-text-color="#FFFFFF" data-link-color="#E8C775" data-popup-background-color="rgba(0,0,0,0)" data-background-color="rgba(0,0,0,0)" data-display-limit="10" data-link-text-color="#FFFFFF"></a>
+	</div>
+
+<!-- VIDEO EMBED -->
+<div class="video-wrapper">
+  <div id="videoOverlay"></div>
+  <!--iframe width="560" height="315" src="https://youtu.be/D5WGMybP9EM" frameborder="0" allowfullscreen></iframe-->
+  <iframe id="myVideo" onClick="togglePlay()" width="560" height="315" src="https://www.youtube.com/embed/D5WGMybP9EM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<!-- Second Parallax Image with About Us Text -->
+<!--
+<div class="w3-display w3-center w3-padding-48" id="home">
+  <h1>ABOUT US</h1>
+</div>
+<p><strong>Oh Malô</strong> <em>(oh muh-low)</em> presents a shape-shifting sound through their dynamic arrangements as delicate vocals intertwine with ambient guitars and powerful, aggressive drums. They combine influences from rhythmically innovative indie outfits such as Local Natives and Bombay Bicycle Club, vocalists Patrick Watson and the late Jeff Buckley, and the chilling ambiance of Radiohead and Sigur Rós to create an unpredictable blend of timbres.<br><br>
+3
+Over the past year, Oh Malô was nominated for “New Artist of the Year” at the 2015 Boston Music Awards alongside local standouts Palehound and Vundabar. They made showcase appearances at both CMJ and CMW, supported several nationally touring acts (From Indian Lakes, The Lighthouse and the Whaler, and Halfnoise), and were dubbed “[one of the] ten acts rising above this year's fray and worth checking out” in Improper Bostonian Magazine's annual music issue.<br><br>
+
+Their debut LP, As We Were, represents the shifting personas that burst forth after the emotional separation from a significant other. Vengeful reds grapple with introspective blues and find balance in a muted, melancholic orange. The colors help guide the unresolved tone of the music as it fights and floats its way through the fifty-minute venture. What begins as an anger-filled, distorted cluster of sound finds its way to a somber, vulnerably reflective conclusion. Written, recorded, and mixed over the past two years at various homes in Boston, Los Angeles, Nashville, and Providence, As We Were is not only a tale of longing but also a representation of the band's long journey toward this debut release.</p>
+</div>
+-->
+
+<!-- Contact Section -->
+<!--div class="w3-display w3-center w3-padding-48" id="home">
+  <h1>Contact</h1>
+</div>
+<div class="w3-center">
+  <p><span class="email-type">BOOKING</span> management.ohmalo@gmail.com<br><span class="email-type">GENERAL INQUIRIES</span> ohmaloband@gmail.com</p>
+</div>-->
+
+<!--footer class="w3-black w3-opacity w3-hover-opacity-off"-->
+  <!-- Email signup -->
+  <!--span>
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+      <span id="mc_embed_signup">
+        <form action="https://ohmalo.us11.list-manage.com/subscribe/post?u=82196f790d4be56294e20bebd&amp;id=d11b84b563" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <span id="mc_embed_signup_scroll">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <span style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_82196f790d4be56294e20bebd_d11b84b563" tabindex="-1" value="">
+            </span>
+            <span class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </span>
+          </span>
+        </form>
+      </span>
+  </span-->
+  <!--a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div-->
+</footer>
+
+
+
+<script>
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// Used to transform hamburger bar
+(function () {
+	$('.hamburger-menu').on('click', function() {
+		$('.bar').toggleClass('animate');
+	})
+})();
+
+// Audio player play/pause button
+function aud_play_pause() {
+  var myAudio = document.getElementById("player");
+  if (myAudio.paused) {
+    $('#stateicon').removeClass('fa fa-play w3-hover-opacity');
+    $('#stateicon').addClass('fa fa-pause w3-hover-opacity');
+    myAudio.play();
+  } else {
+    $('#stateicon').removeClass('fa fa-pause w3-hover-opacity');
+    $('#stateicon').addClass('fa fa-play w3-hover-opacity');
+    myAudio.pause();
+ }
+}
+
+
+//Audio player pause when YouTube is playing
+//function togglePlay() {
+//    return myAudio.play ? myAudio.pause();
+//}
+
+// Parallax video/audio player
+$(document).ready(function () {
+    $(window).on('load scroll', function () {
+        var scrolled = $(this).scrollTop();
+        $('#title').css({
+            'transform': 'translate3d(0, ' + -(scrolled * 0.2) + 'px, 0)', // parallax (20% scroll rate)
+            'opacity': 1 - scrolled / 400 // fade out at 400px from top
+        });
+        $('.bgimg-1').css('transform', 'translate3d(0, ' + -(scrolled * 0.25) + 'px, 0)'); // parallax (25% scroll rate)
+    });
+
+    // video controls
+    $('#state').on('click', function () {
+        var audio = $('#player').get(0);
+        var icons = $('#state > span');
+        $('#overlay').toggleClass('fade');
+        if (audio.paused) {
+            audio.play();
+            icons.removeClass('fa-play').addClass('fa-pause');
+        } else {
+            audio.pause();
+            icons.removeClass('fa-pause').addClass('fa-play');
+        }
+    });
+});
+
+// Navbar changing colors
+$(document).ready(function(){
+   var scroll_start = 0;
+   var startchange = $('#tour');
+   var offset = startchange.offset();
+    if (startchange.length){
+   $(document).scroll(function() {
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('.social-icon').css('color', 'black');
+       } else {
+          $('.social-icon').css('color', '#E8C775');
+       }
+   });
+    }
+});
+</script>
+</body>
+</html>
